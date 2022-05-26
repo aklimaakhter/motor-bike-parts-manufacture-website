@@ -1,0 +1,74 @@
+[
+    {
+        "_id": 1,
+        "name": "Lighting",
+        "img": "https://i.ibb.co/Gc5pzFd/dwidiyo-hanung-Gy-Rvt-Ayy-Vss-unsplash-1.png",
+        "description": "it is comfort",
+        "minimum_order_quantity": 100,
+        "available_quantity": 1000,
+        "price": "50"
+    },
+    {
+        "_id": 2,
+        "name": "Lighting",
+        "img": "https://i.ibb.co/Gc5pzFd/dwidiyo-hanung-Gy-Rvt-Ayy-Vss-unsplash-1.png",
+        "description": "it is comfort",
+        "minimum_order_quantity": 100,
+        "available_quantity": 1000,
+        "price": "50"
+    },
+    {
+        "_id": 3,
+        "name": "Lighting",
+        "img": "https://i.ibb.co/Gc5pzFd/dwidiyo-hanung-Gy-Rvt-Ayy-Vss-unsplash-1.png",
+        "description": "it is comfort",
+        "minimum_order_quantity": 100,
+        "available_quantity": 1000,
+        "price": "50"
+    },
+    {
+        "_id": 4,
+        "name": "Lighting",
+        "img": "https://i.ibb.co/Gc5pzFd/dwidiyo-hanung-Gy-Rvt-Ayy-Vss-unsplash-1.png",
+        "description": "it is comfort",
+        "minimum_order_quantity": 100,
+        "available_quantity": 1000,
+        "price": "50"
+    },
+    {
+        "_id": 5,
+        "name": "Lighting",
+        "img": "https://i.ibb.co/Gc5pzFd/dwidiyo-hanung-Gy-Rvt-Ayy-Vss-unsplash-1.png",
+        "description": "it is comfort",
+        "minimum_order_quantity": 100,
+        "available_quantity": 1000,
+        "price": "50"
+    },
+    {
+        "_id": 6,
+        "name": "Lighting",
+        "img": "https://i.ibb.co/Gc5pzFd/dwidiyo-hanung-Gy-Rvt-Ayy-Vss-unsplash-1.png",
+        "description": "it is comfort",
+        "minimum_order_quantity": 100,
+        "available_quantity": 1000,
+        "price": "50"
+    },
+    {
+        "_id": 7,
+        "name": "Lighting",
+        "img": "https://i.ibb.co/Gc5pzFd/dwidiyo-hanung-Gy-Rvt-Ayy-Vss-unsplash-1.png",
+        "description": "it is comfort",
+        "minimum_order_quantity": 100,
+        "available_quantity": 1000,
+        "price": "50"
+    },
+    {
+        "_id": 8,
+        "name": "Lighting",
+        "img": "https://i.ibb.co/Gc5pzFd/dwidiyo-hanung-Gy-Rvt-Ayy-Vss-unsplash-1.png",
+        "description": "it is comfort",
+        "minimum_order_quantity": 100,
+        "available_quantity": 1000,
+        "price": "50"
+    }
+]

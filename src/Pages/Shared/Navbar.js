@@ -5,6 +5,7 @@ import logo from '../../assets/images/logo.png'
 const Navbar = () => {
     const menuItems = <>
         <li><Link to='/'>Home</Link></li>
+        <li><Link to='/parts'>Parts</Link></li>
         <li><Link to='/about'>About</Link></li>
         <li><Link to='/blog'>Blog</Link></li>
         <li><Link to='/portfolio'>My Portfolio</Link></li>
@@ -12,7 +13,7 @@ const Navbar = () => {
         <li><Link to='/login'>Login</Link></li>
     </>
     return (
-        <div class="navbar bg-base-100 px-12">
+        <div class="navbar bg-base-100 ">
             <div class="navbar-start">
                 <div class="dropdown">
                     <label tabindex="0" class="btn btn-ghost lg:hidden">

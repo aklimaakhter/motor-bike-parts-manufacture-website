@@ -5,6 +5,8 @@ const Summaries = () => {
     return (
         <div>
             <Summary></Summary>
+            <Summary></Summary>
+            <Summary></Summary>
         </div>
     );
 };
