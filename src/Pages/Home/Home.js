@@ -6,17 +6,12 @@ import Summaries from './Summaries';
 
 
 const Home = () => {
-    const parts =[
-        { _id: 1, name: "Lighting", img: "https://i.ibb.co/Gc5pzFd/dwidiyo-hanung-Gy-Rvt-Ayy-Vss-unsplash-1.png", description: "it is comfort", minimum_order_quantity: 100, available_quantity: 1000, price: "50" },
-        { _id: 2, name: "Lighting", img: "https://i.ibb.co/Gc5pzFd/dwidiyo-hanung-Gy-Rvt-Ayy-Vss-unsplash-1.png", description: "it is comfort", minimum_order_quantity: 100, available_quantity: 1000, price: "50" },
-        { _id: 3, name: "Lighting", img: "https://i.ibb.co/Gc5pzFd/dwidiyo-hanung-Gy-Rvt-Ayy-Vss-unsplash-1.png", description: "it is comfort", minimum_order_quantity: 100, available_quantity: 1000, price: "50" },
-    ]
-    // const [parts, setParts] = useState([]);
-    // useEffect(() => {
-    //     fetch("parts.json")
-    //         .then(res => res.json)
-    //         .then(data => setParts(data))
-    // }, [])
+    const [parts, setParts] = useState([]);
+    useEffect(() => {
+        fetch("parts.json")
+            .then(res => res.json())
+            .then(data => setParts(data))
+    }, [])
     return (
         <div className=''>
             <Banner></Banner>
