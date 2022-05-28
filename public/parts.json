@@ -1,74 +1,74 @@
 [
     {
         "_id": 1,
-        "name": "Lighting",
+        "name": "Hunk 150R",
         "img": "https://i.ibb.co/Gc5pzFd/dwidiyo-hanung-Gy-Rvt-Ayy-Vss-unsplash-1.png",
-        "description": "it is comfort",
+        "description": "One World The wide-ranging race categories in which Honda has been active in car racing as well.",
         "minimum_order_quantity": 100,
         "available_quantity": 1000,
-        "price": "50"
+        "price": "550"
     },
     {
         "_id": 2,
-        "name": "Lighting",
-        "img": "https://i.ibb.co/Gc5pzFd/dwidiyo-hanung-Gy-Rvt-Ayy-Vss-unsplash-1.png",
-        "description": "it is comfort",
+        "name": "Thriller 160R",
+        "img": "https://i.ibb.co/HGSbc70/kelvin-zyteng-VT6-CQQvs-VCQ-unsplash-1.png",
+        "description": "Honda is competing in the FIA* Formula One World Championship (F1) as a power unit supplier for the McLaren-Honda.",
         "minimum_order_quantity": 100,
         "available_quantity": 1000,
-        "price": "50"
+        "price": "4000"
     },
     {
         "_id": 3,
-        "name": "Lighting",
-        "img": "https://i.ibb.co/Gc5pzFd/dwidiyo-hanung-Gy-Rvt-Ayy-Vss-unsplash-1.png",
-        "description": "it is comfort",
+        "name": "New Glamour",
+        "img": "https://i.ibb.co/Qr9rG9T/harley-davidson-WJAPg0s-Ws-UQ-unsplash-1-1-1.png",
+        "description": "In the 2016 season, Honda participated in 8 classes in 6 categories of Motorcycle World Championship racing, ",
         "minimum_order_quantity": 100,
         "available_quantity": 1000,
-        "price": "50"
+        "price": "890"
     },
     {
         "_id": 4,
-        "name": "Lighting",
-        "img": "https://i.ibb.co/Gc5pzFd/dwidiyo-hanung-Gy-Rvt-Ayy-Vss-unsplash-1.png",
-        "description": "it is comfort",
+        "name": "Splender ismart+",
+        "img": "https://i.ibb.co/DG5MGQf/serjan-midili-Lmvev-Yp-Wy4w-unsplash-1.png",
+        "description": "Honda Power Products operations started with the desire to apply engine technologies in ways useful for people's daily lives and work situations",
         "minimum_order_quantity": 100,
         "available_quantity": 1000,
-        "price": "50"
+        "price": "50,00"
     },
     {
         "_id": 5,
-        "name": "Lighting",
-        "img": "https://i.ibb.co/Gc5pzFd/dwidiyo-hanung-Gy-Rvt-Ayy-Vss-unsplash-1.png",
-        "description": "it is comfort",
+        "name": "Splender +",
+        "img": "https://i.ibb.co/vwYn8Qq/ralph-ravi-kayden-R2m-Br-DRv-Ic8-unsplash-1.png",
+        "description": "leading to various initiatives with the aim of creating totally new value.",
         "minimum_order_quantity": 100,
         "available_quantity": 1000,
-        "price": "50"
+        "price": "690"
     },
     {
         "_id": 6,
-        "name": "Lighting",
-        "img": "https://i.ibb.co/Gc5pzFd/dwidiyo-hanung-Gy-Rvt-Ayy-Vss-unsplash-1.png",
-        "description": "it is comfort",
+        "name": "HF Deluxe",
+        "img": "https://i.ibb.co/jzsh065/chalo-garcia-5b-UFYH3-HAZY-unsplash-1.png",
+        "description": "The highly anticipated HondaJet achieves type certification from the Federal Aviation Administration and enters into service.",
         "minimum_order_quantity": 100,
         "available_quantity": 1000,
-        "price": "50"
+        "price": "8900"
     },
     {
         "_id": 7,
-        "name": "Lighting",
-        "img": "https://i.ibb.co/Gc5pzFd/dwidiyo-hanung-Gy-Rvt-Ayy-Vss-unsplash-1.png",
-        "description": "it is comfort",
+        "name": "Passion XPro",
+        "img": "https://i.ibb.co/Xznn7SJ/mister-b-a-F5-Kwry-DPug-unsplash-1.png",
+        "description": "ASIMO will go on to become one of the most popular Honda public-facing personalities.",
         "minimum_order_quantity": 100,
         "available_quantity": 1000,
-        "price": "50"
+        "price": "789"
     },
     {
         "_id": 8,
-        "name": "Lighting",
-        "img": "https://i.ibb.co/Gc5pzFd/dwidiyo-hanung-Gy-Rvt-Ayy-Vss-unsplash-1.png",
-        "description": "it is comfort",
+        "name": "Maestro Edge",
+        "img": "https://i.ibb.co/g4xfJ54/harley-davidson-9yx3-Fyex-TOU-unsplash-1.png",
+        "description": "The introduction of the 4-cylinder Honda CB750 in",
         "minimum_order_quantity": 100,
         "available_quantity": 1000,
-        "price": "50"
+        "price": "980"
     }
 ]

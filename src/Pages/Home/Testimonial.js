@@ -1,18 +1,15 @@
 import React from 'react';
 import quote from '../../assets/icons/quote.svg';
-import people1 from '../../assets/images/people1.png';
-import people2 from '../../assets/images/people2.png';
-import people3 from '../../assets/images/people3.png';
 import Review from './Review';
 
 const Testimonial = () => {
     const reviews = [
         {
             _id: 1,
-            name: 'Winson Harry',
+            name: 'Hemar sen',
             reviews: '',
-            location: 'California',
-            img: people1
+            location: 'France',
+            img:"https://i.ibb.co/qY5jrCX/andrey-zvyagintsev-Pdc-NOb4i-YFs-unsplash.jpg"
         },
 
         {
@@ -20,15 +17,15 @@ const Testimonial = () => {
             name: 'Winson Harry',
             reviews: '',
             location: 'California',
-            img: people2
+            img: "https://i.ibb.co/TtX8NbP/nicolas-horn-MTZTGv-Ds-HFY-unsplash.jpg"
         },
 
         {
             _id: 3,
-            name: 'Winson Harry',
+            name: 'Sinha tanima',
             reviews: '',
-            location: 'California',
-            img: people3
+            location: 'Italy',
+            img: "https://i.ibb.co/61p22Yb/almos-bechtold-3402kvt-Hh-Oo-unsplash.jpg"
         },
 
 

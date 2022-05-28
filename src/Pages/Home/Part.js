@@ -12,7 +12,7 @@ const Part = ({ part, setBooking}) => {
                 <p>available_quantity:{available_quantity}</p>
                 <p>${price}</p>
                 <div   className="card-actions justify-center">
-                    <label for="booking-modal" 
+                    <label   htmlFor="booking-modal" 
                         onClick={() => setBooking(part)}   className="btn btn-sm btn-primary text-white uppercase bg-gradient-to-r from-secondary to-primary">Buy Now</label>
                 </div>
             </div>
