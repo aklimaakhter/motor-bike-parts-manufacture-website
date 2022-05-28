@@ -8,6 +8,7 @@ import About from './Pages/About/About';
 import Login from './Pages/Login/Login';
 import Footer from './Pages/Shared/Footer';
 import SignUp from './Pages/Login/SignUp';
+import RequireAuth from './Pages/Login/RequireAuth';
 
 
 function App() {
@@ -16,7 +17,9 @@ function App() {
      <Navbar></Navbar>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/purchase" element={<Purchase />} />
+        <Route path="/purchase" element={<RequireAuth>
+          <Purchase />
+        </RequireAuth>} />
         <Route path="about" element={<About />} />
         <Route path="login" element={<Login />} />
         <Route path="signup" element={<SignUp />} />
