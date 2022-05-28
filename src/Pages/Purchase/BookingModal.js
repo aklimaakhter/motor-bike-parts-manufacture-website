@@ -26,9 +26,7 @@ const BookingModal = ({ booking, setBooking}) => {
                         <input type="text" name="phone" placeholder="Phone Number"   className="input input-bordered w-full max-w-xs" />
                         <input type="submit" value="Submit"   className="btn btn-secondary w-full max-w-xs" />
                     </form>
-                    <div   className="modal-action">
-                        <label for="booking-modal"   className="btn">Yay!</label>
-                    </div>
+                    
                 </div>
             </div>
         </div>
