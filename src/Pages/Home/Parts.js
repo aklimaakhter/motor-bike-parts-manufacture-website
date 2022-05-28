@@ -9,7 +9,7 @@ const Parts = () => {
     const [booking, setBooking] = useState(null);
 
     useEffect( () =>{
-        fetch('parts.json')
+        fetch('http://localhost:5000/part')
         .then(res => res.json())
         .then(data => setParts(data));
     }, [])

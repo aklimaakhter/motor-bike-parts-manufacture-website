@@ -1,5 +1,4 @@
 import React from "react";
-// import PrimaryButton from "../Shared/PrimaryButton";
 
 const Contact = () => {
     return (
@@ -26,7 +25,7 @@ const Contact = () => {
                     placeholder='Your message'
                     rows={6}
                 ></textarea>
-                {/* <PrimaryButton>Submit</PrimaryButton> */}
+                
             </div>
         </div>
     );
