@@ -16,6 +16,7 @@ import Dashboard from './Pages/Dashboard/Dashboard';
 import MyProfile from './Pages/Dashboard/MyProfile';
 import MyReview from './Pages/Dashboard/MyReview';
 import ManageProduct from './Pages/Dashboard/ManageProduct';
+import NotFound from './Pages/Shared/NotFound/NotFound';
 
 
 function App() {
@@ -38,6 +39,7 @@ function App() {
         <Route path="blog" element={<Blog />} />
         <Route path="login" element={<Login />} />
         <Route path="signup" element={<SignUp />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
       <ToastContainer />
       <Footer></Footer>

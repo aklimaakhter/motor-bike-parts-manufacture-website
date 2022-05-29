@@ -1,16 +1,3 @@
-// import React from 'react';
-// import { useQuery } from 'react-query';
-
-// const ManageProduct = () => {
-//     const { data: user } = useQuery('users', () => fetch('http://localhost:5000/user').then(res=>res.json()));
-//     return (
-//         <div>
-//             <h2 className="text-2xl">All Users: {user.length}</h2>
-//         </div>
-//     );
-// };
-
-// export default ManageProduct;
 import React from 'react';
 import { useQuery } from 'react-query';
 import Loading from '../Shared/Loading';
