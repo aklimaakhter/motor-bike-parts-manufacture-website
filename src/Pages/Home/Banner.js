@@ -7,8 +7,10 @@ const Banner = () => {
             <div   className="hero-content flex-col lg:flex-row-reverse">
                 <img src={motorbike}  alt=''/>
                 <div>
-                    <h1   className="text-5xl font-bold">Box Office News!</h1>
-                    <p   className="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                    <h1   className="text-5xl font-bold">Your One-stop Motor Bike Parts</h1>
+                    <p className="py-6">With our comprehensive range of products and efficient supply chain management, CBF is your best choice for quality and affordable custom motorcycle parts for your market.
+
+</p>
                     <button   className="btn btn-primary bg-gradient-to-r from-secondary to-primary text-white font-bold">Get Started</button>
                 </div>
             </div>

@@ -7,7 +7,7 @@ const Testimonial = () => {
         {
             _id: 1,
             name: 'Hemar sen',
-            reviews: '',
+            reviews: "It's quality is very good.",
             location: 'France',
             img:"https://i.ibb.co/qY5jrCX/andrey-zvyagintsev-Pdc-NOb4i-YFs-unsplash.jpg"
         },
@@ -15,7 +15,7 @@ const Testimonial = () => {
         {
             _id: 2,
             name: 'Winson Harry',
-            reviews: '',
+            reviews: ' Long Warranty Lumenis Hair Removal Machine Customer  Laser 60W Diode Beauty Equipment',
             location: 'California',
             img: "https://i.ibb.co/TtX8NbP/nicolas-horn-MTZTGv-Ds-HFY-unsplash.jpg"
         },
@@ -23,7 +23,7 @@ const Testimonial = () => {
         {
             _id: 3,
             name: 'Sinha tanima',
-            reviews: '',
+            reviews: 'Vibration Absorptive Material PU Foam Poron Air Cushion Shock Absorption Insoles',
             location: 'Italy',
             img: "https://i.ibb.co/61p22Yb/almos-bechtold-3402kvt-Hh-Oo-unsplash.jpg"
         },

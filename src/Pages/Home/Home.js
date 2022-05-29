@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import Banner from './Banner';
 import Contact from './Contact';
 import Info from './Info';
@@ -11,7 +12,7 @@ import Testimonial from './Testimonial';
 const Home = () => {
     const [parts, setParts] = useState([]);
     useEffect(() => {
-        fetch("parts.json")
+        fetch("http://localhost:5000/part")
             .then(res => res.json())
             .then(data => setParts(data))
     }, [])
@@ -32,7 +33,12 @@ const Home = () => {
                     }
                 </div>
             </div>
-            
+            <div className='text-center'>
+                <Link to='/purchase'
+                    className='btn btn-primary m-5'>
+                    Purchase
+                </Link>
+            </div>
             <Summaries></Summaries>
             <Contact></Contact>
         </div>
