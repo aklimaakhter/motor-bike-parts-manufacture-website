@@ -4,7 +4,7 @@ const Blog = () => {
     return (
         <div>
             <h2>Question:  How will you improve the performance of a React Application?</h2>
-            <p>Ans:</p>
+            <p>Ans:</p> 
         </div>
     );
 };
