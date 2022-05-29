@@ -17,6 +17,7 @@ import MyProfile from './Pages/Dashboard/MyProfile';
 import MyReview from './Pages/Dashboard/MyReview';
 import ManageProduct from './Pages/Dashboard/ManageProduct';
 import NotFound from './Pages/Shared/NotFound/NotFound';
+import MyportFolio from './Pages/MyportFolio/MyportFolio';
 
 
 function App() {
@@ -36,6 +37,7 @@ function App() {
           <Route path="manageproduct" element={<ManageProduct></ManageProduct>}></Route>
          </Route>
         <Route path="about" element={<About />} />
+        <Route path="myportFolio" element={<MyportFolio/>} />
         <Route path="blog" element={<Blog />} />
         <Route path="login" element={<Login />} />
         <Route path="signup" element={<SignUp />} />
