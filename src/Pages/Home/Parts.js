@@ -9,7 +9,7 @@ const Parts = () => {
     const [booking, setBooking] = useState(null);
 
     useEffect( () =>{
-        fetch('http://localhost:5000/part')
+        fetch('https://glacial-brook-45972.herokuapp.com/part')
         .then(res => res.json())
         .then(data => setParts(data));
     }, [])

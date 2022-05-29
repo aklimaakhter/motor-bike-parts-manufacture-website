@@ -20,7 +20,7 @@ const BookingModal = ({ booking, setBooking}) => {
             phone: event.target.phone.value,
         }
 
-        fetch('http://localhost:5000/service', {
+        fetch('https://glacial-brook-45972.herokuapp.com/service', {
             method: 'POST',
             headers:{
                 'content-type': 'application/json'

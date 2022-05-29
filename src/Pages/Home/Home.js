@@ -12,7 +12,7 @@ import Testimonial from './Testimonial';
 const Home = () => {
     const [parts, setParts] = useState([]);
     useEffect(() => {
-        fetch("http://localhost:5000/part")
+        fetch("https://glacial-brook-45972.herokuapp.com/part")
             .then(res => res.json())
             .then(data => setParts(data))
     }, [])

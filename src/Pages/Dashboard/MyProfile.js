@@ -13,7 +13,7 @@ const MyProfile = () => {
 
     useEffect( () =>{
         if (user) {
-        fetch(`http://localhost:5000/service?client=${user.email}`,{
+        fetch(`https://glacial-brook-45972.herokuapp.com/service?client=${user.email}`,{
             method: 'GET',
             headers:{
                 'authorization': `Bearer ${localStorage.getItem('accessToken')}`
