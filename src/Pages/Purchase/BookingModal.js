@@ -1,6 +1,7 @@
 import React from 'react';
 import { useAuthState } from 'react-firebase-hooks/auth';
 import auth from '../../firebase.init';
+import {  toast } from 'react-toastify';
 
 const BookingModal = ({ booking, setBooking}) => {
 
@@ -11,7 +12,33 @@ const BookingModal = ({ booking, setBooking}) => {
         event.preventDefault();
         const slot = event.target.value;
         console.log(_id, name,)
-        setBooking(null);
+        const service ={
+            bookingId:_id,
+            booking:name,
+            client:user.email,
+            clientName: user.displayName,
+            phone: event.target.phone.value,
+        }
+
+        fetch('http://localhost:5000/service', {
+            method: 'POST',
+            headers:{
+                'content-type': 'application/json'
+            },
+            body: JSON.stringify(service)
+        })
+        .then(res => res.json())
+        .then(data =>{
+            console.log(data);
+            if(data.success){
+                toast(`Product is set, ${name}`)
+            }
+            else{
+                toast.error(`Already have and product on set, ${name}`)
+            }
+            setBooking(null); 
+        })
+        
     }
 
     return (
